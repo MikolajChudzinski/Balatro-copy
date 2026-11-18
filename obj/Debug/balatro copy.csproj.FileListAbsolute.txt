@@ -1,0 +1,7 @@
+C:\Users\mchud\source\repos\balatro copy\balatro copy\bin\Debug\balatro copy.exe.config
+C:\Users\mchud\source\repos\balatro copy\balatro copy\bin\Debug\balatro copy.exe
+C:\Users\mchud\source\repos\balatro copy\balatro copy\bin\Debug\balatro copy.pdb
+C:\Users\mchud\source\repos\balatro copy\balatro copy\obj\Debug\balatro copy.csproj.AssemblyReference.cache
+C:\Users\mchud\source\repos\balatro copy\balatro copy\obj\Debug\balatro copy.csproj.CoreCompileInputs.cache
+C:\Users\mchud\source\repos\balatro copy\balatro copy\obj\Debug\balatro copy.exe
+C:\Users\mchud\source\repos\balatro copy\balatro copy\obj\Debug\balatro copy.pdb
