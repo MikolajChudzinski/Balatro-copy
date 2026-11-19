@@ -8,21 +8,13 @@ namespace balatro_copy
 {
     internal class Program
     {
-        static void Main(string[] args)
-
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            BasicCard card = new BasicCard(Value.Ace, Suit.Spades);
 
-            Console.WriteLine("hoi klass 2");
-            Console.Write("hoi");
-            Console.Write("hoi");
-            Console.Write("hoi");
-
-            Console.Write("hoi");
-
-            int cookies = 5;
-            float test = 4.0f; 
-
+            System.Console.WriteLine(card.Value);
+            System.Console.WriteLine(card.Suit);
         }
     }
 }
+

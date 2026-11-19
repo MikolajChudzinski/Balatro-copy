@@ -6,41 +6,16 @@ using System.Threading.Tasks;
 
 namespace balatro_copy
 {
-
-    class Cards
+    public class BasicCard
     {
-
-        Value number;
-
-        Suits suit;
-
-
-
-
-        Cards(Value number, Suits suit)
-
+        public BasicCard(Value value, Suit suit)
         {
-
-            this.number = number;
-
-            this.suit = suit;
-
-            this.suit = Suits.DIAMONDS;
-
+            Value = value;
+            Suit = suit;
         }
 
-
-        public int PrintMe()
-
-        {
-
-            Console.WriteLine(this.suit.ToString() + this.number);
-
-            return 1;
-
-        }
-
+        public Value Value { get; }
+        public Suit Suit { get; }
     }
-
 }
 

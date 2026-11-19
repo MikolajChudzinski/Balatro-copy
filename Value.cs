@@ -6,17 +6,22 @@ using System.Threading.Tasks;
 
 namespace balatro_copy
 {
-    enum Value
+    public enum Value
     {
-        JACK,
-        QUEEN,
-        KING,
-        ACE,
-
-
-
-        
-
-
+        Two = 2,
+        Three,
+        Four,
+        Five,
+        Six,
+        Seven,
+        Eight,
+        Nine,
+        Ten,
+        Jack,
+        Queen,
+        King,
+        Ace
     }
 }
+
+

@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace balatro_copy
 {
-    enum Suits
+    public enum Suit
     {
-        HEART,
-        
-        CLOVER,
-
-        SPADE,
-        DIAMONDS,
-
-
+        Hearts,
+        Diamonds,
+        Clubs,
+        Spades
     }
 }
