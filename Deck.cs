@@ -6,8 +6,8 @@ namespace balatro_copy
 {
     public class Deck
     {
-        private List<BasicCard> cards;
-        private List<BasicCard> drawnCards;
+        private readonly List<BasicCard> cards = new();
+        private readonly List<BasicCard> drawnCards = new();
 
        
         public Deck()
@@ -24,7 +24,6 @@ namespace balatro_copy
             }
         }
 
-       
         public BasicCard DrawCard()
         {
             if (cards.Count == 0)
@@ -40,13 +39,11 @@ namespace balatro_copy
             return card;
         }
 
-        
         public int GetAvailableCardsCount()
         {
             return cards.Count;
         }
 
-       
         public int GetDrawnCardsCount()
         {
             return drawnCards.Count;
